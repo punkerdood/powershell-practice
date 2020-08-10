@@ -14,7 +14,7 @@ Set-Location -Path "Studio1"
 Copy-Item -Path "../auto-committing-setup.ps1"
 git add auto-committing-setup.ps1
 
-git commit -m "Write-Output $(CommitMessage)"
+git commit -m Write-Output $CommitMessage
 git push 
 
 
